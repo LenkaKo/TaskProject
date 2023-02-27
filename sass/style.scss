@@ -27,7 +27,7 @@
     margin: 0 40px;
     height: 100vh;
     position: relative;
-    background-image: url("https://i.postimg.cc/Y2V3Z6vg/background-img.jpg");
+    background-image: url("/images/background-heder.jpg");
     background-position: center center;
     background-size: cover;
     background-attachment: fixed; }
@@ -67,7 +67,7 @@
     padding: 40px 0;
 }
 
-.row i {
+.ikon i {
     margin: 0;
     padding: 0;
     font-size: 30px;
@@ -78,4 +78,48 @@
     color: #f0932b;
     border: 3px solid #f0932b;
     border-radius: 50%; }
+
+/* Gallery */
+
+.gallery {
+    background-color: aliceblue;
+    margin: 0 40px;
+    padding: 80px 0;
+}
+
+.card-box {
+    background-color: #fff;
+}
+
+/* Footer */
+
+.footer-section {
+    margin: 0 40px;
+    padding: 36px;
+    background-color: #fff;
+}
+    
+.footer-icons  {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-icons li p {
+    font-size: 15px;
+}
+    
+.footer-icons li i {
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 10px;
+    color:  #ffffff; 
+    flex-wrap: wrap;
+    line-height: 35px;
+}
 
